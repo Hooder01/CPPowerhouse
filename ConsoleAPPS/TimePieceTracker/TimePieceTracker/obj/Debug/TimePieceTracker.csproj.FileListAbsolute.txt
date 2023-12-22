@@ -1,0 +1,7 @@
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\TimePieceTracker\TimePieceTracker\bin\Debug\TimePieceTracker.exe.config
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\TimePieceTracker\TimePieceTracker\bin\Debug\TimePieceTracker.exe
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\TimePieceTracker\TimePieceTracker\bin\Debug\TimePieceTracker.pdb
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\TimePieceTracker\TimePieceTracker\obj\Debug\TimePieceTracker.csproj.AssemblyReference.cache
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\TimePieceTracker\TimePieceTracker\obj\Debug\TimePieceTracker.csproj.CoreCompileInputs.cache
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\TimePieceTracker\TimePieceTracker\obj\Debug\TimePieceTracker.exe
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\TimePieceTracker\TimePieceTracker\obj\Debug\TimePieceTracker.pdb
