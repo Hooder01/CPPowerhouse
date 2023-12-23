@@ -10,21 +10,38 @@ using System.Threading.Tasks;
 
 namespace TimePieceTracker
 {
+
+
+    class Dectector // parent class for the tracker dectector
+    {
+
+    }
+
+
     class Program
     {
 
-        static void StartMenu() // method that will create a menu on opening
+        static void Menu()
         {
-            Console.WriteLine("      *MENU*      ", "\n", "      *Login*     ");
-            Console.WriteLine("\n", "    *Options*     ", "\n", "     *Quit*    ");
+            Console.WriteLine("    1.      *MENU*            ");
+
+            Console.WriteLine("    2.      *Login*           ");
+
+            Console.WriteLine("    3.      *Quit*            ");
+
+            int userInput;
+
+            
+
+            
         }
 
 
 
         static void Main(string[] args)
         {
-            StartMenu();
 
+            Menu();
 
             Console.ReadKey(); // captures user input from the keyboard, allowing programs to wait for and respond to specific key presses (also stops crashing)
         }
