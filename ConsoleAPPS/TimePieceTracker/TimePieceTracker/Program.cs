@@ -21,7 +21,7 @@ namespace TimePieceTracker
     class Program
     {
 
-        static void Menu()
+        static void Menu() // menu on start up for the user
         {
             Console.WriteLine("    1.      *MENU*            ");
 
@@ -29,10 +29,9 @@ namespace TimePieceTracker
 
             Console.WriteLine("    3.      *Quit*            ");
 
-            int userInput;
+            string userInput;
 
-            
-
+            Console.WriteLine("\nEnter number for selection");
             
         }
 
