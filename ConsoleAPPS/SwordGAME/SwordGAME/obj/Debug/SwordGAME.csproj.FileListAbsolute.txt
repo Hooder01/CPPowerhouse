@@ -1,0 +1,7 @@
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\SwordGAME\SwordGAME\bin\Debug\SwordGAME.exe.config
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\SwordGAME\SwordGAME\bin\Debug\SwordGAME.exe
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\SwordGAME\SwordGAME\bin\Debug\SwordGAME.pdb
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\SwordGAME\SwordGAME\obj\Debug\SwordGAME.csproj.AssemblyReference.cache
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\SwordGAME\SwordGAME\obj\Debug\SwordGAME.csproj.CoreCompileInputs.cache
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\SwordGAME\SwordGAME\obj\Debug\SwordGAME.exe
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\SwordGAME\SwordGAME\obj\Debug\SwordGAME.pdb
