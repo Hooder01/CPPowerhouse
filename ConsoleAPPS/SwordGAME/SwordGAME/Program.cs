@@ -21,11 +21,9 @@ namespace SwordGAME
 
         public
 
-        static void SwordClass01() // method/functions rep each diffrent sword (four can be chosen by the user)
+        static void SwordClass01() // method/functions rep each diffrent sword (three can be chosen by the user)
         {
            const string Name = "Longsword"; // name of sword/blade
-
-
         }
 
         static void SwordClass02()
@@ -46,6 +44,8 @@ namespace SwordGAME
     {
         static void Main(string[] args) // main applaction of usage through here 
         {
+
+
             Console.WriteLine("Clash Of Warriors And Swords"); // start up title
 
             Console.WriteLine("\n\n  Begin Game? (yes/no)     "); // prompts user question
@@ -62,12 +62,15 @@ namespace SwordGAME
             else // if user "yes" the program
                 Console.WriteLine("Please select from the selection of swords below"); // will prompt user another question
 
-                Console.WriteLine("\n 1. Longsword \n 2. Claymore \n 3. Rapier"); 
+                Console.WriteLine("\n 1. Longsword \n 2. Claymore \n 3. Rapier");
 
+            SwordGame NEWobj = new SwordGame(); // parent class is given public object
 
-           /* SwordGame myOBJ = new SwordGame();
-
-            SwordGame.SwordClass01(); */
+            if (UserInput == "1")
+            {
+                Console.WriteLine("You have selected"); NEWobj.SwordClass01();
+            }
+           
 
             Console.ReadLine();
         }
