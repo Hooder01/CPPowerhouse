@@ -18,21 +18,24 @@ namespace SwordGAME
 
     class SwordGame // parent class
     {
+
+        public
+
         static void SwordClass01() // method/functions rep each diffrent sword (four can be chosen by the user)
         {
-            string Name = "Longsword"; // name of sword/blade
+           const string Name = "Longsword"; // name of sword/blade
 
 
         }
 
         static void SwordClass02()
         {
-            string Name = "Claymore";
+            const string Name = "Claymore";
         }
 
         static void SwordClass03()
         {
-            string Name = "Rapier";
+           const string Name = "Rapier";
         }
     }
 
@@ -62,7 +65,9 @@ namespace SwordGAME
                 Console.WriteLine("\n 1. Longsword \n 2. Claymore \n 3. Rapier"); 
 
 
-            SwordGame myOBJ = new SwordGame();
+           /* SwordGame myOBJ = new SwordGame();
+
+            SwordGame.SwordClass01(); */
 
             Console.ReadLine();
         }
