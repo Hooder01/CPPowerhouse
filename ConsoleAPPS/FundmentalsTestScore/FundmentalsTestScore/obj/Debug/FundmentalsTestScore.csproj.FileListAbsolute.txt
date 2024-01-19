@@ -1,0 +1,7 @@
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\FundmentalsTestScore\FundmentalsTestScore\bin\Debug\FundmentalsTestScore.exe.config
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\FundmentalsTestScore\FundmentalsTestScore\bin\Debug\FundmentalsTestScore.exe
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\FundmentalsTestScore\FundmentalsTestScore\bin\Debug\FundmentalsTestScore.pdb
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\FundmentalsTestScore\FundmentalsTestScore\obj\Debug\FundmentalsTestScore.csproj.AssemblyReference.cache
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\FundmentalsTestScore\FundmentalsTestScore\obj\Debug\FundmentalsTestScore.csproj.CoreCompileInputs.cache
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\FundmentalsTestScore\FundmentalsTestScore\obj\Debug\FundmentalsTestScore.exe
+C:\Users\hoode\Desktop\Scripts (2023 - 2024)\CPPowerhouse\ConsoleAPPS\FundmentalsTestScore\FundmentalsTestScore\obj\Debug\FundmentalsTestScore.pdb
