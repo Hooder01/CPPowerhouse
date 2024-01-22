@@ -20,17 +20,20 @@ namespace FundmentalsTestScore
         static void Main(string[] args)
         {
             int[] classScores = { 23, 45, 10, 16, 54 }; // class mates scores
+            int classSum = 0;
+
+            foreach (int classScore in classScores)
+            {
+                classSum += classScore;
+            }
+
+            Console.WriteLine(classSum);
 
             int userScore = 48; // user (aka you) score
 
             
-            double averageScore = CalculateAverage(classScores);
-            // Note: Using double for average allows for precision in case the average is not an integer.
-
-            // Compare user score with the average
-            bool isBetterThanAverage = userScore > averageScore;
-            // Note: This line determines if the user's score is higher than the calculated average creating a bool data type
-
+           
+            
             Console.ReadLine(); // Debug
         }
         
