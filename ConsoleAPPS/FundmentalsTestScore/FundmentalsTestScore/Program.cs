@@ -17,7 +17,34 @@ namespace FundmentalsTestScore
 {
     public class program // global open class
     {
-        static void Main(string[] args)
+
+        static bool IsBetterThanAverage(int userScore, int[] classScores)
+        // bool method holding two integer data types (classScores being an array)
+        {
+            double averageClassScore = classScores.Average();
+            // declared double data type to calculate the Average score in the array using the Average() method
+
+            return userScore > averageClassScore;
+            // will return score if is "true" otherwise "false"
+        }
+
+
+        static void main() // main method of opreation
+        {
+            int[] classScores = { 23, 45, 10, 16, 54 };
+
+            int userScore = 
+        }
+
+
+
+
+
+
+
+
+
+        /*static void Main(string[] args)
         {
             int[] classScores = { 23, 45, 10, 16, 54 }; // class mates scores
             int classSum = 0;
@@ -35,8 +62,8 @@ namespace FundmentalsTestScore
            
             
             Console.ReadLine(); // Debug
-        }
-        
+        }*/
+
     }
 
   
