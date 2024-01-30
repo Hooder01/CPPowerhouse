@@ -29,15 +29,21 @@ namespace FundmentalsTestScore
         }
 
 
-        static void main() // main method of opreation
+        static void Main()
         {
-            int[] classScores = { 23, 45, 10, 16, 54 };
+            int[] peersScores = { 23, 45, 10, 16, 54 };
+            int yourScore = 48;
 
-            int userScore = 
+            bool isBetter = IsBetterThanAverage(yourScore, peersScores);
+
+            Console.WriteLine("Am I better than the average? " + isBetter);
+
+            Console.ReadLine(); // Debug
+
         }
 
 
-
+       
 
 
 
@@ -61,7 +67,7 @@ namespace FundmentalsTestScore
             
            
             
-            Console.ReadLine(); // Debug
+            
         }*/
 
     }
