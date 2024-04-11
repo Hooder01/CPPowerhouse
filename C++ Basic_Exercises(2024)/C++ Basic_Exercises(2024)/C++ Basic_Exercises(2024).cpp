@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <algorithm>
 
 /* 1. Write a program in C++ to print welcome text on a separate line.
 int main()
@@ -55,6 +55,15 @@ int main()
 }*/
 
 
+// 5. Write a in C++ program to check the upper and lower limits of integers
 
+int main() 
+{
+    std::cout << "Check the upper and lower limits of integer :\n" << "---------------------------------------" << std::endl;
+
+    std::cout << "The maximum limit of (int) data type : " << INT_MAX
+
+
+}
 
 
