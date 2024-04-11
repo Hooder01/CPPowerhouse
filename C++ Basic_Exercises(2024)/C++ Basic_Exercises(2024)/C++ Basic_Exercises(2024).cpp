@@ -24,7 +24,7 @@ int main()
 }
 */
 
-// 3. Write a in C++ program to find the size of fundamental data types
+/* 3. Write a in C++ program to find the size of fundamental data types
 
 int main() 
 {
@@ -39,6 +39,22 @@ int main()
     std::cout << "Size of (double) is: " << sizeof(double); std::cout << " " << "bytes" << std::endl;
     std::cout << "Size of (long double) is: " << sizeof(long double); std::cout << " " << "bytes " << "(should be 16 bytes)" << std::endl;
     std::cout << "Size of (bool) is: " << sizeof(bool); std::cout << " " << "bytes" << std::endl;
-}
+}*/
+
+
+/* 4. Write a program in C++ to print the sum of two numbers using variables.
+
+int main()
+{
+    int a = 5;
+    int b = 5;
+    int sum = a + b;
+
+    std::cout << "a is assigned to 5" "\n" "b is also assigned to 5" << "\nsum of these are " << sum << "!\n\n";
+
+}*/
+
+
+
 
 
