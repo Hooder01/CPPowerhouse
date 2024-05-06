@@ -1,0 +1,7 @@
+C:\Users\hoode\Desktop\CPPowerhouse\ConsoleAPPS\SentanceSmashCODEWARS\SentanceSmash\SentanceSmash\obj\Debug\SentanceSmash.csproj.AssemblyReference.cache
+C:\Users\hoode\Desktop\CPPowerhouse\ConsoleAPPS\SentanceSmashCODEWARS\SentanceSmash\SentanceSmash\obj\Debug\SentanceSmash.csproj.CoreCompileInputs.cache
+C:\Users\hoode\Desktop\CPPowerhouse\ConsoleAPPS\SentanceSmashCODEWARS\SentanceSmash\SentanceSmash\bin\Debug\SentanceSmash.exe.config
+C:\Users\hoode\Desktop\CPPowerhouse\ConsoleAPPS\SentanceSmashCODEWARS\SentanceSmash\SentanceSmash\bin\Debug\SentanceSmash.exe
+C:\Users\hoode\Desktop\CPPowerhouse\ConsoleAPPS\SentanceSmashCODEWARS\SentanceSmash\SentanceSmash\bin\Debug\SentanceSmash.pdb
+C:\Users\hoode\Desktop\CPPowerhouse\ConsoleAPPS\SentanceSmashCODEWARS\SentanceSmash\SentanceSmash\obj\Debug\SentanceSmash.exe
+C:\Users\hoode\Desktop\CPPowerhouse\ConsoleAPPS\SentanceSmashCODEWARS\SentanceSmash\SentanceSmash\obj\Debug\SentanceSmash.pdb
