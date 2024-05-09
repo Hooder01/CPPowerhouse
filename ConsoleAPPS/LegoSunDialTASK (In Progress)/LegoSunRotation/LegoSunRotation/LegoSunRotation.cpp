@@ -9,36 +9,32 @@ In this task, your goal is to input the correct coordinates to make the sun rota
 
 class SunClass 
 {
- public: // anything below can be used outside this class
-    
-     void LightSource()
-     {
-         int coox, cooy, cooz; // coo standing for coordinates
+ public:
 
-         std::cout << "Please enter coordinates for \nx"; std::cin >> coox; std::cout << std::endl;
-         std::cout << "y"; std::cin >> cooy; std::cout << std::endl; std::cout << "z"; std::cin >> cooz;
-     }
+    void Movement() // This method will be used for the user and how they control the movement?
+    {
+        int x, y, z;
 
 
-     void Brickfunc() 
-     {
-         int x;
-         int y;
-         int z;
+    }
 
-         int brickSetCoor = x, y, z;
-     }
+    void lightEmission() 
+    {
+        // user can adjust the power of the light emission here
+    }
 };
+
+
+
+class Brick: public SunClass
+{
+
+};
+
 
 
 int main()
 {
 
-    std::cout << "Welcome! you've been chosen to test our new AI powered S.U.N \n You'll be pointing the sun over to the lego brick using the coordinates x y and z." << std::endl;
-    // welcoming player message 
-
-    SunClass myobj;
-
-    myobj.LightSource();
 }
 
