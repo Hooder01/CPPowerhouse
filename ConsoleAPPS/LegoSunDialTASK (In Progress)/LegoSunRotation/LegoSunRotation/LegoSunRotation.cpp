@@ -11,16 +11,21 @@ class SunClass
 {
  public:
 
-    void Movement() // This method will be used for the user and how they control the movement?
+    void Roation() // This method will be used for the user and how they control the movement?
     {
         int x, y, z;
 
-
+        std::cout << "Please Input the X Y and Z coordinates" << "\n";
+        std::cout << "Input X:"
     }
 
     void lightEmission() 
     {
-        // user can adjust the power of the light emission here
+     double userPesentage;
+     std::cout << "------Adjust LightEmissionPower here-----";
+     std::cout << "\n   (adjust by adding any decimal number)  \n";
+
+     std::cout << "EmissionPower: "; std::cin >> userPesentage;
     }
 };
 
@@ -28,13 +33,18 @@ class SunClass
 
 class Brick: public SunClass
 {
-
+    int x = 12;
+    int y = 8;
+    int z = 34;
+    // set deafult values
 };
 
 
 
 int main()
 {
+    SunClass myobj; // testing
 
+    myobj.lightEmission(); // testing
 }
 
