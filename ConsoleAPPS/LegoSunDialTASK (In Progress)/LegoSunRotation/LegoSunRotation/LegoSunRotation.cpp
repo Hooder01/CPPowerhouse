@@ -15,8 +15,11 @@ class SunClass
     {
         int x, y, z;
 
-        std::cout << "Please Input the X Y and Z coordinates" << "\n";
-        std::cout << "Input X:"
+        std::cout << "Please Input the X Y and Z coordinates for the device rotation (this needs to be exact same as the brick location) \n\n";
+        std::cout << "Input X:"; std::cin >> x; std::cout << std::endl;
+
+        std::cout << "Input Y:"; std::cin >> y; std::cout << std::endl;
+        std::cout << "Input Z:"; std::cin >> z; std::cout << std::endl;
     }
 
     void lightEmission() 
@@ -33,10 +36,15 @@ class SunClass
 
 class Brick: public SunClass
 {
-    int x = 12;
-    int y = 8;
-    int z = 34;
-    // set deafult values
+    void brickLocation() 
+    {
+        std::cout << "Now please input the location coordinates"; // WRITE HERE NEXT
+    }
+
+    void isTrue() // this method will be used if both X Y and Z locations from both child and parent are the same!
+    {
+
+    }
 };
 
 
@@ -45,6 +53,6 @@ int main()
 {
     SunClass myobj; // testing
 
-    myobj.lightEmission(); // testing
+    myobj.Roation(); // testing
 }
 
