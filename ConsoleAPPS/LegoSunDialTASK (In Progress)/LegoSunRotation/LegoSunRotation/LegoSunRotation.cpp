@@ -38,12 +38,22 @@ class Brick: public SunClass
 {
     void brickLocation() 
     {
-        std::cout << "Now please input the location coordinates"; // WRITE HERE NEXT
+        int x, y, z; // should I be overiding these?
+        std::cout << "Now please input the location coordinates (these also use X Y and Z)" << std::endl;
+        
+        std::cout << "Input X:"; std::cin >> x; std::cout << std::endl;
+        std::cout << "Input Y:"; std::cin >> y; std::cout << std::endl;
+        std::cout << "Input Z:"; std::cin >> z; std::cout << std::endl;
     }
 
     void isTrue() // this method will be used if both X Y and Z locations from both child and parent are the same!
     {
 
+    }
+
+    void callingSunClass() 
+    {
+        Roation(); // calling roation method from parent Sun Class
     }
 };
 
@@ -51,8 +61,10 @@ class Brick: public SunClass
 
 int main()
 {
-    SunClass myobj; // testing
+    Brick mychild;
 
-    myobj.Roation(); // testing
+    mychild.brickLocation();
+
+    mychild.Roation();
 }
 
