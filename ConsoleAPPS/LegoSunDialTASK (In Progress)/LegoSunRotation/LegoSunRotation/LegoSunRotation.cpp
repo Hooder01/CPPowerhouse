@@ -33,7 +33,6 @@ public:
 };
 
 
-
 class Brick: public SunClass
 {
     public:
@@ -49,14 +48,10 @@ class Brick: public SunClass
         std::cout << "Input Z:"; std::cin >> brickZ; std::cout << std::endl;
     }
 
-    bool checkCoordinates
-    {
-        return (x == brickX && y == brickY && z = brickZ);
-    }
 
-    void callingSunClass() 
+    bool isTrue() 
     {
-        Roation(); // calling roation method from parent Sun Class
+
     }
 };
 
@@ -66,7 +61,9 @@ int main()
 {
     std::cout << "-----Welcome to the Sun LightEmission Project!-----" << std::endl; // Welcoming user
 
-    Brick brickobj;
+    Brick myobj;
+
+    myobj.isTrue();
 
    
 }
