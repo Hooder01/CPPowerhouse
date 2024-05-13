@@ -7,14 +7,14 @@ In this task, your goal is to input the correct coordinates to make the sun rota
 #include <iostream>
 
 
-class SunClass 
+class SunClass
 {
- public:
+public:
+
+    int x, y, z;
 
     void Roation() // This method will be used for the user and how they control the movement?
     {
-        int x, y, z;
-
         std::cout << "Please Input the X Y and Z coordinates for the device rotation (this needs to be exact same as the brick location) \n\n";
         std::cout << "Input X:"; std::cin >> x; std::cout << std::endl;
 
@@ -36,19 +36,22 @@ class SunClass
 
 class Brick: public SunClass
 {
+    public:
+
+    int brickX, brickY, brickZ;
+
     void brickLocation() 
     {
-        int x, y, z; // should I be overiding these?
         std::cout << "Now please input the location coordinates (these also use X Y and Z)" << std::endl;
         
-        std::cout << "Input X:"; std::cin >> x; std::cout << std::endl;
-        std::cout << "Input Y:"; std::cin >> y; std::cout << std::endl;
-        std::cout << "Input Z:"; std::cin >> z; std::cout << std::endl;
+        std::cout << "Input X:"; std::cin >> brickX; std::cout << std::endl;
+        std::cout << "Input Y:"; std::cin >> brickY; std::cout << std::endl;
+        std::cout << "Input Z:"; std::cin >> brickZ; std::cout << std::endl;
     }
 
-    void isTrue() // this method will be used if both X Y and Z locations from both child and parent are the same!
+    bool checkCoordinates
     {
-
+        return (x == brickX && y == brickY && z = brickZ);
     }
 
     void callingSunClass() 
@@ -61,10 +64,10 @@ class Brick: public SunClass
 
 int main()
 {
-    Brick mychild;
+    std::cout << "-----Welcome to the Sun LightEmission Project!-----" << std::endl; // Welcoming user
 
-    mychild.brickLocation();
+    Brick brickobj;
 
-    mychild.Roation();
+   
 }
 
