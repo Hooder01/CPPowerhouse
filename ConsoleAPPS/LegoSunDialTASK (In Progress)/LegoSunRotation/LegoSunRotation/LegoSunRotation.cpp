@@ -40,48 +40,21 @@ class Brick: public SunClass
     int brickX, brickY, brickZ;
     std::string checkLoc = "Location matches";
 
-    void brickLocation() 
+    void brickLocation()
     {
         std::cout << "Now please input the location coordinates of this lego brick (these also use X Y and Z)" << std::endl;
-        
+
         std::cout << "Input X:"; std::cin >> brickX; std::cout << std::endl;
         std::cout << "Input Y:"; std::cin >> brickY; std::cout << std::endl;
         std::cout << "Input Z:"; std::cin >> brickZ; std::cout << std::endl;
 
-        /*if (brickX == x)
-        {
-            std::cout << checkLoc << std::endl;
-        }
-        else
-        {
-            std::cout << "Location Incorrect!";
-        }
-
-        if (brickY == y)
-        {
-            std::cout << checkLoc << std::endl;
-        }*/
-    }
-
-
-    void checkloc() 
-    {
-        if (brickX == x)
-        {
-            std::cout << checkLoc << std::endl;
-        }
-        else
-        {
-            std::cout << "Location Incorrect!";
-        }
-
-        if (brickY == y)
+        if (brickX == x && brickY == y && brickZ == z)
         {
             std::cout << checkLoc << std::endl;
         }
         else 
         {
-            std::cout << "Location Incorrect!";
+            std::cout << "Location is incorrect! please try again";
         }
     }
 };
@@ -97,7 +70,6 @@ int main()
 
     firstclasscall.Roation();
     secondclasscall.brickLocation();
-    secondclasscall.checkloc();
    
 }
 
