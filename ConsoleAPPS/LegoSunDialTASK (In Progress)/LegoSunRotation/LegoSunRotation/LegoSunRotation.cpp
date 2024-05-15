@@ -7,13 +7,13 @@ In this task, your goal is to input the correct coordinates to make the sun rota
 #include <iostream>
 
 
-class SunClass
+class SunClass // parent class
 {
-public:
+public: // can be used outside this class
 
-    int x, y, z;
+    int x, y, z; // declared interger types 
 
-    void Roation() // This method will be used for the user and how they control the movement?
+    void Roation() 
     {
         std::cout << "Please Input the X Y and Z coordinates for the device rotation (this needs to be exact same as the brick location) \n\n";
         std::cout << "Input X:"; std::cin >> x; std::cout << std::endl;
@@ -38,20 +38,51 @@ class Brick: public SunClass
     public:
 
     int brickX, brickY, brickZ;
+    std::string checkLoc = "Location matches";
 
     void brickLocation() 
     {
-        std::cout << "Now please input the location coordinates (these also use X Y and Z)" << std::endl;
+        std::cout << "Now please input the location coordinates of this lego brick (these also use X Y and Z)" << std::endl;
         
         std::cout << "Input X:"; std::cin >> brickX; std::cout << std::endl;
         std::cout << "Input Y:"; std::cin >> brickY; std::cout << std::endl;
         std::cout << "Input Z:"; std::cin >> brickZ; std::cout << std::endl;
+
+        /*if (brickX == x)
+        {
+            std::cout << checkLoc << std::endl;
+        }
+        else
+        {
+            std::cout << "Location Incorrect!";
+        }
+
+        if (brickY == y)
+        {
+            std::cout << checkLoc << std::endl;
+        }*/
     }
 
 
-    bool isTrue() 
+    void checkloc() 
     {
+        if (brickX == x)
+        {
+            std::cout << checkLoc << std::endl;
+        }
+        else
+        {
+            std::cout << "Location Incorrect!";
+        }
 
+        if (brickY == y)
+        {
+            std::cout << checkLoc << std::endl;
+        }
+        else 
+        {
+            std::cout << "Location Incorrect!";
+        }
     }
 };
 
@@ -61,10 +92,12 @@ int main()
 {
     std::cout << "-----Welcome to the Sun LightEmission Project!-----" << std::endl; // Welcoming user
 
-    Brick myobj;
+    SunClass firstclasscall;
+    Brick secondclasscall;
 
-    myobj.isTrue();
-
+    firstclasscall.Roation();
+    secondclasscall.brickLocation();
+    secondclasscall.checkloc();
    
 }
 
