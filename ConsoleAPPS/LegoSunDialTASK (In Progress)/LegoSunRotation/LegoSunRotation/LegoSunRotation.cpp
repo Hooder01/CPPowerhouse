@@ -22,20 +22,6 @@ public: // can be used outside this class
         std::cout << "Input Z:"; std::cin >> z; std::cout << std::endl;
     }
 
-    void lightEmission() 
-    {
-     double userPesentage;
-     std::cout << "------Adjust LightEmissionPower here-----";
-     std::cout << "\n   (adjust by adding any decimal number)  \n";
-
-     std::cout << "EmissionPower: "; std::cin >> userPesentage;
-    }
-};
-
-
-class Brick: public SunClass
-{
-    public:
 
     int brickX, brickY, brickZ;
     std::string checkLoc = "Location matches";
@@ -52,24 +38,32 @@ class Brick: public SunClass
         {
             std::cout << checkLoc << std::endl;
         }
-        else 
+        else
         {
             std::cout << "Location is incorrect! please try again";
         }
     }
-};
 
+
+
+    /*void lightEmission()
+    {
+     double userPesentage;
+     std::cout << "------Adjust LightEmissionPower here-----";
+     std::cout << "\n   (adjust by adding any decimal number)  \n";
+
+     std::cout << "EmissionPower: "; std::cin >> userPesentage;
+    }*/
+};
 
 
 int main()
 {
     std::cout << "-----Welcome to the Sun LightEmission Project!-----" << std::endl; // Welcoming user
 
-    SunClass firstclasscall;
-    Brick secondclasscall;
+    SunClass classinquestion;
 
-    firstclasscall.Roation();
-    secondclasscall.brickLocation();
+    classinquestion.Roation(); classinquestion.brickLocation();
    
 }
 
